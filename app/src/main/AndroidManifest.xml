@@ -20,13 +20,19 @@
         </activity>
         <activity
             android:name=".AlignSimpleActivity"
-            android:label="对齐示例" />
+            android:label="对齐 - 示例" />
         <activity
             android:name=".RatioSimpleActivity"
-            android:label="比例示例" />
+            android:label="比例 - 示例" />
         <activity
             android:name=".ChainsSimpleActivity"
-            android:label="链式示例" />
+            android:label="链式 - 示例" />
+        <activity
+            android:name=".WeightSimpleActivity"
+            android:label="weight - 示例" />
+        <activity
+            android:name=".GuideLinesSimpleActivity"
+            android:label="基线 - 示例" />
     </application>
 
 </manifest>
