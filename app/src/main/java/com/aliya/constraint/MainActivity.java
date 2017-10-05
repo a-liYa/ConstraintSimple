@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new ListEntity(RatioSimpleActivity.class, "比例 - 示例"));
         list.add(new ListEntity(ChainsSimpleActivity.class, "链式 - 示例"));
         list.add(new ListEntity(WeightSimpleActivity.class, "weight - 示例"));
-        list.add(new ListEntity(GuideLinesSimpleActivity.class, "基线 - 示例"));
+        list.add(new ListEntity(GuideLinesSimpleActivity.class, "引导线 - 示例"));
     }
 
     @Override

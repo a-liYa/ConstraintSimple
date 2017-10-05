@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 /**
- * 基线 - Simple
+ * 引导线 - Simple
  *
  * @author a_liYa
  * @date 2017/10/5 下午5:37.
