@@ -52,7 +52,16 @@ public class XmlTextView extends android.support.v7.widget.AppCompatTextView {
                 return "match_parent";
             }
         } else if (attrName.startsWith("layout_constraint")) {
-            if ("0".equals(attrVal)) {
+            if ("layout_constraintVertical_chainStyle".equals(attrName)) {
+                switch (attrVal) {
+                    case "0":
+                        return "spread";
+                    case "1":
+                        return "spread_inside";
+                    case "2":
+                        return "packed";
+                }
+            } else if ("0".equals(attrVal)) {
                 return "parent";
             }
         }

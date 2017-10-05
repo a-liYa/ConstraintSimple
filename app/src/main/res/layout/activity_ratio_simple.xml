@@ -9,14 +9,13 @@
     <!--左侧与右侧比例是1:4; 上部与下部的比例是1:4-->
     <com.aliya.constraint.widget.XmlTextView
         style="@style/tv_style_wrap"
-        android:contentDescription="左:右 -- 1:4; 上:下 -- 1:4"
+        android:contentDescription="左:右 (1:4); 上:下 (1:10)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25"
-        tools:layout_editor_absoluteX="39dp" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <com.aliya.constraint.widget.XmlTextView
         style="@style/tv_style_wrap_0dp"
@@ -29,6 +28,7 @@
         android:contentDescription="H, 2:1 = 2:1 = W, 1:2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="H, 2:1"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

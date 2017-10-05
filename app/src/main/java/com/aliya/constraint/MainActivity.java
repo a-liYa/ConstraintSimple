@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
     private static List<ListEntity> list = new ArrayList<>();
 
     static {
-        list.add(new ListEntity(AlignSimpleActivity.class, "对齐示例"));
-        list.add(new ListEntity(RatioSimpleActivity.class, "比例示例"));
-        list.add(new ListEntity(ChainsSimpleActivity.class, "链式示例"));
+        list.add(new ListEntity(AlignSimpleActivity.class, "对齐 - 示例"));
+        list.add(new ListEntity(RatioSimpleActivity.class, "比例 - 示例"));
+        list.add(new ListEntity(ChainsSimpleActivity.class, "链式 - 示例"));
     }
 
     @Override
