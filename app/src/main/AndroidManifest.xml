@@ -32,7 +32,7 @@
             android:label="weight - 示例" />
         <activity
             android:name=".GuideLinesSimpleActivity"
-            android:label="引导线 - 示例" />
+            android:label="基线 - 示例" />
     </application>
 
 </manifest>
